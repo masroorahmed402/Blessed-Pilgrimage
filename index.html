@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blessed Pilgrimage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-nav">
+        <div class="top-nav-left">
+            <span><i class="fa-solid fa-phone"></i> 1-800-000-0000</span>
+            <span><i class="fa-solid fa-envelope"></i> info@blessedpilgrimage.com</span>
+        </div>
+        <div class="top-nav-right">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+    <div class="main-nav">
+        <div class="logo">
+            <h3 class="btns" onclick="redirectTo('index.html')">Home Page</h3>
+        </div>
+        <div class="menu">
+            <h3 class="btns" onclick="redirectTo('hajj.html')">Hajj</h3>
+            <h3 class="btns" onclick="redirectTo('umrah.html')">Umrah</h3>
+            <h3 class="btns" onclick="redirectTo('tours.html')">Tours</h3>
+            <a href="#"><input type="search" placeholder="Search..."><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-solid fa-compass"></i></a>
+        </div>
+    </div>
+    <div class="bg">
+        <div class="overlay-text">
+            <h1 class="maintext">EXPLORE THE WORLD</h1>
+            <h3 class="maintext1">Over 35 years of Travel Service Experience - Journey With Us</h3>
+        </div>
+    </div>
+    <div class="three-images-container">
+        <div class="three-images">
+            <div class="image-container" id="image1">
+                <div class="text-overlay">
+                    <h2><button class="btn" onclick="redirectTo('hajj.html')">Hajj</button></h2>
+                </div>
+            </div>
+            <div class="image-container" id="image2">
+                <div class="text-overlay">
+                    <h2><button class="btn" onclick="redirectTo('umrah.html')">Umrah</button></h2>
+                </div>
+            </div>
+            <div class="image-container" id="image3">
+                <div class="text-overlay">
+                    <h2><button class="btn"onclick="redirectTo('umrah.html')">Tours</button></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="line">
+        <h1>WE ARE YOUR LEADING EXPERTS ON HAJJ, UMRAH AND ISLAMIC TRAVEL</h1>
+    </div>
+    <div class="reviews-section">
+        <button class="arrow left-arrow" onclick="previousReview()">&#10094;</button>
+        <div class="reviews-container">
+            <div class="review-card active" id="review1">
+                <p>"On behalf of me and my wife, I would like to first ask Allah swt to accept our hajj and yours Ameen. We also want to thank the wonderful staff at Dar El Salam for their amazing coordination and hospitality. This has been a very memorable and special journey and we are so glad we were able to experience it alongside all of you wonderful brothers and sisters, may Allah reward you all and forgive all our sins"</p>
+                <h4>Hassan & Najua</h4>
+            </div>
+            <div class="review-card" id="review2">
+                <p>"Alhamdulilah Mukhtar & I have returned home safe and sound this afternoon, Sept 06. I want to convey my thanks to Dar El Salam as a whole, all the workers behind the scenes who made this Hajj logistically possible and comfortable, imams for their spiritual & religious guidance, group leaders for their energetic leadership and all fellow Br & Sr for your kindness and support throughout this memorable religious experience. May Allah (swt) accept all our duas & ibadah and bless us with the highest reward in this life & after Ameen."</p>
+                <h4>Saima Mukhtar</h4>
+            </div>
+            <div class="review-card" id="review3">
+                <p>"Jazak Allah Khair Saif and Dar El Salaam team. Words cannot describe how you have taken care of us and all our needs during this memorable hajj journey. Inshallah you will be rewarded greater than this in this world and the hereafter."</p>
+                <h4>Fairoze Poona</h4>
+            </div>
+            <div class="review-card" id="review4">
+                <p>"Thanks Br Rafat, Sr Rahima, Br Arif and all the DST team. It was great meeting everyone in the group. May Allah accept everyone's Hajj and Ibada and bless us all with a return trip soon back to his house. Hope everyone starts feeling better soon. Please remember us in your prayers."</p>
+                <h4>Sakib & Kiran</h4>
+            </div>
+        </div>
+        <button class="arrow right-arrow" onclick="nextReview()">&#10095;</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,426 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color:#fff;
+    padding: 10px 20px;
+    font-size: large; 
+}
+
+.top-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: large; 
+}
+
+.top-nav-left span {
+    margin-right: 40px;
+    
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 20px;
+    border-bottom: 2px solid #eee;
+    font-size: large; 
+
+}
+
+.main-nav .logo img {
+    height: 80px; 
+}
+
+.main-nav .menu {
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+
+.main-nav .menu a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.main-nav .menu input[type="search"] {
+    padding: 15px;
+    margin-right: 33px;
+    margin-left: 50px;
+}
+
+.bg {
+    background: url("images/bg1.jpg") no-repeat center center;
+    height: 70vh;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.overlay-text {
+    text-align: center;
+    color: white;
+    max-width: 90%;
+    padding: 20%;
+    margin-top: 2.5%;
+    box-sizing: border-box;
+}
+.maintext {
+    font-size: 6rem;
+}
+.maintext1{
+    font-size: 2rem;
+}
+#image1 {
+    background-image: url('images/hajj.jpg');
+}
+
+#image2 {
+    background-image: url('images/umrah.jpg');
+}
+
+#image3 {
+    background-image: url('images/tours.jpg');
+}
+.three-images {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    background-color: #f8f8f8;
+    margin: 0px 0px 0px 0px;
+    height: 100%;
+}
+
+.image-container {
+    width: 100%; 
+    margin: 0%;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+.text-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 22px 35px;
+    font-size: 1.8rem;
+    background-color: transparent;
+    font-weight: 500;
+    color: #fff; 
+    border: 7px solid #fff;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+.btns {
+    margin-left: 55px;
+    cursor: pointer;
+}
+.line {
+    font-size: xx-large;
+    margin: 130px 160px 130px 160px;
+    text-align: center;
+    font-style: bold;
+}
+
+.arrow {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 40px;
+    cursor: pointer;
+    font-size: 80px;
+}
+.reviews-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+.arrow {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 50px;
+    cursor: pointer;
+    font-size: 80px;
+    margin: 0 55px;
+}
+
+.reviews-container {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    max-width: 70%;
+    height: 30vh;
+    position: relative;
+}
+
+.review-card {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    display: none;
+}
+
+.review-card.active {
+    display: block;
+}
+
+.review-card p {
+    font-size: 1.8rem;
+    margin: 0 0 10px;
+}
+
+.review-card h4 {
+    margin: 50px 0 0 0;
+    font-size: 1.8rem;
+    color: #555;
+}
+
+.bg2 {
+    height: 70vh;
+    background-size: 150%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, rgba(220, 220, 220, 0), rgba(255, 255, 255, 2)), url("images/kaaba.jpg") no-repeat center center;
+}
+.overlay-text2{
+    text-align: center;
+    color: white;
+    font-size: 5.7rem;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.overlay-text2 h1, .overlay-text2 h2 {
+    margin: 0;
+    padding: 0;
+}
+.maintext3 {
+    font-size: 2rem;
+    margin-top: 40px;
+    color: black;
+}
+.para{
+    margin: 25px 475px 25px 475px;
+    text-align: center;
+    font-size: 1.7rem;
+}
+#paratop{
+    margin-top: 100px;
+}
+#register{
+    display: block;
+    margin: 80px auto;
+    margin-bottom: 400px;
+    padding: 25px 0px 30px 25px;
+    width: 40%;
+    font-size: 2rem;
+    font-style: italic;
+    background-color: transparent;
+    color: rgb(96, 77, 116);
+    border: 5px solid rgb(96, 77, 116);
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.bg3 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0, 5) 100%), url("images/kaaba2.jpg") no-repeat center center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.overlay-text3 {
+    width: 100%; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.maintext4 {
+    margin-top: 8.5%;
+    margin-left: 13%;
+    color: white;
+    font-size: 8.5rem;
+    font-weight: 600; 
+}
+
+.maintext5 {
+    text-align: left;
+    color: white;
+    font-size: 1.7rem; 
+    margin: -2% 35% 35% 25%; 
+    padding: 0;
+    box-sizing: border-box;
+}
+.umrah2{
+    background: #f7f7f7;
+    margin-top: -42px;
+}
+#umrah2text{
+    font-size: 45px;
+    font-family: "open-sans",Arial, Helvetica, sans-serif;
+    color: #747D88;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 100px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 75px;
+    box-sizing: border-box;
+}
+.image-item {
+    flex: 1 1 150px;
+    max-width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.imgs {
+    width: 100%;
+    height: 17vh;
+    margin-bottom: 30px;
+}
+
+.image-item strong {
+    font-size: 23px;
+    color: #333333;
+    min-height: 155px;
+}
+.thirdumrah {
+    display: flex;
+}
+
+#makkahimg {
+    width: 90%;
+    object-fit: contain;
+    margin: 15%;
+}
+
+#makkahid {
+    font-size: 4rem;
+    margin: 7% 0% 4% 12%;
+}
+
+.makkahdesc {
+    font-size: 1.5rem;
+    line-height: 2;
+    margin: 0% 18% 10% 12%;
+}
+.thirdumrah1 {
+    display: flex;
+}
+
+#mazaratimg {
+    width: 145%;
+    object-fit: contain;
+    margin: 24%;
+    
+}
+
+#mazaratid {
+    font-size: 4rem;
+    margin: 6% 0% 4% 28%;
+}
+
+.mazaratdesc {
+    font-size: 1.5rem;
+    line-height: 2;
+    margin: 0% 18% 10% 28%;
+}
+.bg02 {
+    height: 70vh;
+    background-size: 150%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, rgba(220, 220, 220, 0), rgba(255, 255, 255, 2)), url("images/tours1.jpg") no-repeat center center;
+}
+.overlay-text02{
+    text-align: center;
+    color: white;
+    font-size: 350%;
+    padding: 0;
+    margin-top: 23%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20%;
+    box-sizing: border-box;
+}
+.overlay-text02 h1, .overlay-text02 h2 {
+    margin: 0;
+    padding: 0;
+}
+.maintext03 {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin-top: 40px;
+    color: black;
+}
